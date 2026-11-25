@@ -1,0 +1,207 @@
+{
+  "canvas": [
+    1080,
+    1920
+  ],
+  "panel_start_y": 960,
+  "panel_opaque_y": 1015,
+  "panel_height_percent": 50,
+  "colors": {
+    "top": "#F4511D",
+    "bottom": "#7B180F",
+    "text": "#FFFFFF"
+  },
+  "logo_box": [
+    72,
+    1030,
+    168,
+    122
+  ],
+  "logo_source_view": [
+    0,
+    230,
+    1254,
+    1140
+  ],
+  "logo_border": false,
+  "default_for": "Future Chuyện Thương Hiệu campaign-analysis videos unless explicitly overridden",
+  "text_alignment": "left",
+  "text_left_x": 72,
+  "text_right_margin": 212,
+  "text_max_width": 796,
+  "text_start_y": 1176,
+  "text_size_reference": 57,
+  "text_line_step_reference": 73,
+  "font_reference": "Helvetica Neue Bold",
+  "original_frame_sha256": "63ed64b324071a3872dba59c364fdbaaae357f1e1c463959ddfb6b9e5868c331",
+  "updated_on": "2026-11-25",
+  "font_path_reference": "/System/Library/Fonts/HelveticaNeue.ttc",
+  "font_index_reference": 1,
+  "text_spacing": "Natural font spacing; never justify or stretch word spacing",
+  "text_wrapping": "Balance the line widths and fill the safe title box while preserving natural phrases and left alignment. Fit by word breaks and a naturally wider or narrower face in the same family, without tracking or justification.",
+  "hook": {
+    "frame_visibility": "hook_only",
+    "footage_choice": "Climax or distinctive creative action from the original video",
+    "sharp_footage_cover_rect_xywh": [
+      0,
+      0,
+      1080,
+      1015
+    ],
+    "scaling": "Uniform cover; crop deliberately to keep the main subject and action visible",
+    "blurred_padding": false,
+    "edge_blend": "Preserve the frame alpha fade into orange",
+    "duration": "Follow the approved hook narration and current user request; not fixed",
+    "extra_campaign_name_label": false,
+    "logo": "Use only the logo already embedded in the frame"
+  },
+  "body": {
+    "orange_frame": false,
+    "foreground_rect_reference_xywh": [
+      0,
+      656,
+      1080,
+      608
+    ],
+    "source_ratio_reference": "16:9",
+    "foreground": "Sharp image at its original aspect ratio, spanning the full canvas width for landscape sources",
+    "background": "Blurred version of the same footage above and below the landscape foreground",
+    "logo": {
+      "asset": "logo-chuyen-thuong-hieu.png",
+      "source_crop_xyxy": [
+        0,
+        230,
+        1254,
+        1140
+      ],
+      "rect_reference_xywh": [
+        818,
+        270,
+        190,
+        138
+      ],
+      "color": "Original white/silver",
+      "visibility": "Immediately after hook until video end",
+      "border": false,
+      "background_box": false
+    },
+    "foreground_side_margin_px": 0,
+    "foreground_side_feather_px": 0
+  },
+  "editing": {
+    "check_excerpt_boundaries": true,
+    "avoid": "Unintended flashes of native title cards or next shots at source excerpt boundaries",
+    "readability": "Hold each continuous shot through at least one complete spoken sentence. Do not use rapid montage in the hook unless explicitly requested.",
+    "local_fixes": "Trim, hold, or gently slow footage as needed without shifting approved narration or captions",
+    "preserve_other_approved_elements": true,
+    "qa": "Inspect the actual exported video at cuts, hook end, titles, logos and narration-caption sync. Verify sharp landscape footage reaches both canvas edges on representative body scenes. Check protected content against the supplied safe-area polygon, including text outlines and diacritics. Hide the guide in exported video.",
+    "vaseline_issue_times_reference_only_seconds": [
+      22,
+      27,
+      48
+    ],
+    "minimum_shot_hold": "At least one complete spoken sentence before any visual cut, including hook. Cuts belong in the silence after sentence endings; a shot may span multiple sentences.",
+    "source_internal_cuts": "Check and avoid native camera cuts inside a selected excerpt during a spoken sentence; select continuous footage long enough for the narration."
+  },
+  "safe_area": {
+    "reference_canvas": [
+      1080,
+      1920
+    ],
+    "polygon_xy": [
+      [
+        51,
+        248
+      ],
+      [
+        1028,
+        248
+      ],
+      [
+        1028,
+        861
+      ],
+      [
+        888,
+        861
+      ],
+      [
+        888,
+        1548
+      ],
+      [
+        51,
+        1548
+      ]
+    ],
+    "zones_xyxy_exclusive": [
+      [
+        51,
+        248,
+        1028,
+        861
+      ],
+      [
+        51,
+        861,
+        888,
+        1548
+      ]
+    ],
+    "guide_asset": "vung-an-toan-tiktok-reels-1080x1920.png",
+    "guide_render_in_export": false,
+    "hook_title_bounds_xyxy": [
+      72,
+      1176,
+      868,
+      1528
+    ],
+    "body_logo_rect_xywh": [
+      818,
+      270,
+      190,
+      138
+    ],
+    "body_subtitle_bounds_xyxy": [
+      72,
+      1398,
+      868,
+      1508
+    ],
+    "body_subtitle_center_x": 470,
+    "protect": [
+      "hook title",
+      "logos",
+      "subtitles",
+      "on-screen text",
+      "key subject or action"
+    ],
+    "full_bleed": [
+      "orange panel",
+      "background",
+      "source footage outside protected details"
+    ]
+  },
+  "music": {
+    "asset": "nhac-nen-blockbuster-trailer.m4a",
+    "start_seconds": 48.08,
+    "gain_db": -20,
+    "visibility": "start_to_end",
+    "loop_reference_seconds": [
+      48.08,
+      74.78
+    ],
+    "loop_crossfade_seconds": 0.08
+  },
+  "voice": {
+    "provider": "Vbee",
+    "voice_name": "HN – Ngọc Huyền",
+    "speed": 1.1,
+    "pause_seconds": {
+      "period": 0.2,
+      "comma": 0.1,
+      "semicolon": 0.15,
+      "newline": 0.25
+    }
+  }
+}

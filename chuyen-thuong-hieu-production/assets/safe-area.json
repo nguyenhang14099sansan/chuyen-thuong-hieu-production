@@ -1,0 +1,71 @@
+{
+  "canvas_px": [
+    1080,
+    1920
+  ],
+  "safe_polygon_xy": [
+    [
+      51,
+      248
+    ],
+    [
+      1028,
+      248
+    ],
+    [
+      1028,
+      861
+    ],
+    [
+      888,
+      861
+    ],
+    [
+      888,
+      1548
+    ],
+    [
+      51,
+      1548
+    ]
+  ],
+  "safe_rectangles_xyxy_exclusive": [
+    [
+      51,
+      248,
+      1028,
+      861
+    ],
+    [
+      51,
+      861,
+      888,
+      1548
+    ]
+  ],
+  "guide_asset": "vung-an-toan-tiktok-reels-1080x1920.png",
+  "guide_render_in_export": false,
+  "chuyen_thuong_hieu": {
+    "hook_title_bounds_xyxy": [
+      72,
+      1176,
+      868,
+      1528
+    ],
+    "hook_title_alignment": "left",
+    "hook_title_font_reference": "Helvetica Neue Bold",
+    "body_logo_rect_xywh": [
+      818,
+      270,
+      190,
+      138
+    ],
+    "body_subtitle_bounds_xyxy": [
+      72,
+      1398,
+      868,
+      1508
+    ],
+    "body_subtitle_center_x": 470
+  }
+}
