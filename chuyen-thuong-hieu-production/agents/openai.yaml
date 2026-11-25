@@ -1,0 +1,4 @@
+interface:
+  display_name: "Chuyện Thương Hiệu"
+  short_description: "Kịch bản, Vbee, video khung cam và caption Facebook"
+  default_prompt: "Dùng $chuyen-thuong-hieu-production để tạo video từ nội dung, tư liệu và MP3 tôi gửi."
